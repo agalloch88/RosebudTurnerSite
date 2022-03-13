@@ -1,11 +1,11 @@
 const userData = {
   githubUsername: "manuarora700",
-  name: "Manu Arora",
-  designation: "Full-Stack Developer",
+  name: "Rosebud Turner",
+  designation: "Author, Speaker, Educator",
   avatarUrl: "/avatar.png",
-  email: "manuarorawork@gmail.com",
+  email: "rosebudturner@gmail.com",
   phone: "+91 9587738861",
-  address: "Jaipur, Rajasthan, India.",
+  address: "Charlotte, NC",
   projects: [
     {
       title: "Tailwind Master Kit",
