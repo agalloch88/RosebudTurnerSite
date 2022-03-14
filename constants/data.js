@@ -1,10 +1,10 @@
 const userData = {
-  githubUsername: "manuarora700",
+  githubUsername: "agalloch88",
   name: "Rosebud Turner",
   designation: "Author, Speaker, Educator",
   avatarUrl: "/avatar.png",
   email: "rosebudturner@gmail.com",
-  phone: "+91 9587738861",
+  phone: "+1-704-609-0608",
   address: "Charlotte, NC",
   projects: [
     {
@@ -108,8 +108,8 @@ const userData = {
   socialLinks: {
     instagram: "https://instagram.com/maninthere",
     twitter: "https://twitter.com/mannupaaji",
-    linkedin: "https://linkedin.com/in/manuarora28",
-    github: "https://github.com/manuarora700",
+    linkedin: "https://www.linkedin.com/in/rosebud-a-turner-420ab21b/",
+    github: "https://github.com/agalloch88",
     facebook: "https://facebook.com/",
   },
 };
