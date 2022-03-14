@@ -2,7 +2,7 @@ const userData = {
   githubUsername: "agalloch88",
   name: "Rosebud Turner",
   designation: "Author, Speaker, Educator",
-  avatarUrl: "/avatar.png",
+  avatarUrl: "/rosebud_standing.jpeg",
   email: "rosebudturner@gmail.com",
   phone: "+1-704-609-0608",
   address: "Charlotte, NC",
@@ -110,7 +110,7 @@ const userData = {
     twitter: "https://twitter.com/mannupaaji",
     linkedin: "https://www.linkedin.com/in/rosebud-a-turner-420ab21b/",
     github: "https://github.com/agalloch88",
-    facebook: "https://facebook.com/",
+    facebook: "https://facebook.com/rosebud.turner",
   },
 };
 
