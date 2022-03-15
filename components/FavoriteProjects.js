@@ -46,7 +46,7 @@ export default function FavoriteProjects() {
                 className="transform hover:scale-125 transition duration-2000 ease-out"
               />
               <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-red-500 rounded-md px-2">
-                Through Talen's Eyes: A Visit to Grandma's House
+                Coming Soon: The Other Woman - A Memoir in Poetry
               </h1>
               <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">
                 01
@@ -57,6 +57,7 @@ export default function FavoriteProjects() {
           <a
             href="https://www.amazon.com/Through-Talens-Eyes-Grandma-Prayer/dp/0996968903/ref=sr_1_2?crid=22RL2WJ6A2L08&keywords=Through+Talen%27s+Eyes&qid=1646937848&sprefix=through+talen%27s+eyes%2Caps%2C81&sr=8-2"
             className="w-full block col-span-3  sm:col-span-2 shadow-2xl"
+            target="_blank"
           >
             <div className="relative overflow-hidden">
               {/* <div className="overlay absolute inset-0 bg-black bg-opacity-70 z-10"></div> */}
@@ -75,18 +76,18 @@ export default function FavoriteProjects() {
           </a>
           {/* Single card */}
           <a
-            href="https://www.ryankirsch.dev"
-            className="w-full block col-span-3 sm:col-span-1  object-cover"
+href="https://www.amazon.com/Through-Talens-Eyes-Visit-Grandmas/dp/0988518007/ref=sr_1_1?crid=22RL2WJ6A2L08&keywords=Through+Talen%27s+Eyes&qid=1646937848&sprefix=through+talen%27s+eyes%2Caps%2C81&sr=8-1"            className="w-full block col-span-3  sm:col-span-2 shadow-2xl"
+            target="_blank"
           >
-            <div className="relative overflow-hidden shadow-2xl">
+            <div className="relative overflow-hidden">
               {/* <div className="overlay absolute inset-0 bg-black bg-opacity-70 z-10"></div> */}
               <img
-                src="/rosebud-sitting.jpeg"
-                alt="rosebud sitting"
-                className="transform hover:scale-125 transition duration-2000 ease-out object-cover shadow-2xl"
+                src="/visit-to-grandma.jpeg"
+                alt="book cover"
+                className="transform hover:scale-125 transition duration-2000 ease-out"
               />
               <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-red-500 rounded-md px-2">
-                Upcoming Title
+              Through Talen's Eyes: A Visit to Grandma's House
               </h1>
               <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">
                 03
