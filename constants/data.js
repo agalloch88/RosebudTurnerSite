@@ -2,7 +2,7 @@ const userData = {
   githubUsername: "agalloch88",
   name: "Rosebud Turner",
   designation: "Author, Speaker, Educator",
-  avatarUrl: "/rosebud_standing.jpeg",
+  avatarUrl: "/rosebud-standing.jpeg",
   email: "rosebudturner@gmail.com",
   phone: "+1-704-609-0608",
   address: "Charlotte, NC",

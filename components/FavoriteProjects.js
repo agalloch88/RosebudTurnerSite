@@ -41,7 +41,7 @@ export default function FavoriteProjects() {
           >
             <div className="relative overflow-hidden">
               <img
-                src="/visit-to-grandma.jpeg"
+                src="/rosebud-other-woman.jpeg"
                 alt="book cover"
                 className="transform hover:scale-125 transition duration-2000 ease-out"
               />
