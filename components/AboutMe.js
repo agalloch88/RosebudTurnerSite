@@ -140,7 +140,7 @@ export default function AboutMe() {
               </p>
             ))}
 
-            <h1 className="bg-red-500 text-3xl rounded-md px-2 py-1 inline-block font-bold text-gray-50">
+            {/* <h1 className="bg-red-500 text-3xl rounded-md px-2 py-1 inline-block font-bold text-gray-50">
               Tech Stack
             </h1>
             <div className="flex flex-row flex-wrap mt-8">
@@ -192,7 +192,7 @@ export default function AboutMe() {
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mongodb/mongodb.png"
                 className="h-20 w-20 mx-4 my-4"
               />
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

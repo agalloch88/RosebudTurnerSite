@@ -7,7 +7,7 @@ export default function FavoriteProjects() {
       <div className="max-w-6xl mx-auto">
         <header className="flex flex-col md:flex-row justify-between items-center pt-40 mx-10 md:my-20 lg:my-0">
           <h1 className="text-6xl lg:text-9xl max-w-lg font-bold text-gray-500 my-20 md:my-0 md:text-white dark:text-gray-600 text-center">
-            Favorite Projects
+            My Works
           </h1>
           <Link href="/projects">
             <a className="mb-20 md:mb-0 px-8 py-4 rounded-md bg-white shadow-lg text-xl font-semibold flex flex-row space-x-4 items-center dark:text-gray-700">
@@ -35,7 +35,7 @@ export default function FavoriteProjects() {
         <div className="grid md:grid-cols-3 gap-8 lg:-mt-8 pb-40">
           {/* Single card */}
           <a
-            href="https://www.amazon.com/Through-Talens-Eyes-Visit-Grandmas/dp/0988518007/ref=sr_1_1?crid=22RL2WJ6A2L08&keywords=Through+Talen%27s+Eyes&qid=1646937848&sprefix=through+talen%27s+eyes%2Caps%2C81&sr=8-1"
+            href="https://app.thebookpatch.com/BookStore/the-other-woman/1ef7c346-ef2c-42b4-87be-e4a13df86986?isbn=9798885672016"
             className="w-full block col-span-3 shadow-2xl"
             target="_blank"
           >
@@ -46,7 +46,7 @@ export default function FavoriteProjects() {
                 className="transform hover:scale-125 transition duration-2000 ease-out"
               />
               <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-red-500 rounded-md px-2">
-                Coming Soon: The Other Woman - A Memoir in Poetry
+                NEW RELEASE: The Other Woman - A Memoir in Poetry
               </h1>
               <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">
                 01
