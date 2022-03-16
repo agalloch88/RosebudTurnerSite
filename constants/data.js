@@ -50,7 +50,7 @@ const userData = {
   ],
   about: {
     title:
-      "I'm a software developer that loves building products and web applications that impact millions of lives",
+      "I'm an author and poet, speaker, and lifelong educator who loves to create and learn",
     description: [
       `Rosebud Alford Turner was born, raised and received most of her formal education in Florida. She has
       been a resident of Charlotte, NC for more than 40 years where she started her career as an educator,
@@ -86,8 +86,8 @@ const userData = {
       degree in education and graduate certifications in English and Instructional Supervision from the
       University of North Carolina-Charlotte.`,
     ],
-    currentProject: "Tailwind Master Kit",
-    currentProjectUrl: "https://tailwindmasterkit.com",
+    currentProject: "The Other Woman - A Memoir in Poetry",
+    currentProjectUrl: "https://app.thebookpatch.com/BookStore/the-other-woman/1ef7c346-ef2c-42b4-87be-e4a13df86986?isbn=9798885672016",
   },
   experience: [
     {
