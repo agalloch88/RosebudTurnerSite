@@ -52,9 +52,39 @@ const userData = {
     title:
       "I'm a software developer that loves building products and web applications that impact millions of lives",
     description: [
-      `I've been developing full-stack application since I was 10 years old. I didn't know what full-stack meant at that time because the term was not coined back then. I'm so out of content right now that I'm literally crying writing this text since lorem text is so 2012 now.`,
-      `After learning HTML and struggling with CSS, I came up with a brilliant idea of using bootstrap so that I don't have to style everything by myself and - for obvious reasons - if you knew bootstrap, you were cool.`,
-      `But now, I'm a legend. I've been coding in React, Angular, Vue, Svelte, Node.js, Express, Fastify, MongoDB, MySQL, Bootstrap, Tailwind, C, C++, C#, Rust, Haskell, Perl, PHP, Assembly, Logo and YouDontKnowShit programming language etc to name a few. Although I barely know the syntax (Psst, Stack overflow!), I consider myself a Ninja developer I'm laughing right now.`,
+      `Rosebud Alford Turner was born, raised and received most of her formal education in Florida. She has
+      been a resident of Charlotte, NC for more than 40 years where she started her career as an educator,
+      and raised her children. She taught secondary English for several years for the Charlotte-Mecklenburg
+      School District. Following her 14 years in the classroom, Rosebud worked as a Professional Development
+      Specialist. She specialized in training teachers on effective teaching practices and classroom
+      management procedures. In addition, Rosebud trained administrators on how to conduct effective
+      teacher classroom observations and how to conduct beneficial conferences.`,
+      `During her tenure in CMS Rosebud was assigned to create and direct a new department for the district
+      whose goal was to increase teacher retention and teacher performance. She created the Department of
+      Instructional Excellence. In this role she developed a mentoring program which focused specifically on
+      the personalized training and support for 1 st through 3 rd year teachers. By the second year of the
+      department it was already evident that increased teacher retention and performance were being
+      realized. Because of the success of the department, Rosebud was asked to share with other districts
+      across the country the nuts and bolts of what methods and procedures she used in the department
+      which positively impacted the district’s new teachers.`,
+      `Due to diabetic complications Rosebud lost her sight in her late fifties. With the support of her family
+      and friends and her trust in God’s Word of guidance and protection, she refused to allow this setback to
+      be the end of having a full life. Rosebud chose to see this occurrence as life altering, not life ending. She
+      has never used blindness as an excuse to not have joy, excitement, fun, and creativity as a natural part
+      of her life. As proof of this belief, Rosebud created a business and called it Eliminate Excuse. She wrote
+      her first and second children’s books after sight loss and has conducted book talks and trainings at
+      schools and churches using her books as the back drop.`,
+      `Rosebud is a published author of three books: The Facilitator’s Guide for the First-Grade Teacher,
+      Through Talen’s Eyes – A Visit to Grandma’s House, and Through Talen’s Eyes – “Grandma What Is
+      Prayer?” Her latest book, The Other Woman, a Memoir in Poetry from an Enabling Wife, an Adoptive
+      Mother, an Enlighted Friend, and a Resurrected Woman, is already getting positive notice.`,
+      `Rosebud enjoys retirement by engaging in the things she loves doing the most: reading, listening to
+      music, writing, singing and going to the theatre, movies, and luncheons with friends. She is a member of
+      a lively book club as well as a member of her church’s choir and occasionally sings solos.`,
+      `Rosebud received her undergraduate degree in English from Bethune-Cookman College in Daytona
+      Beach, Florida, where she became a member of Alpha Kappa Alpha Sorority. She earned her master’s
+      degree in education and graduate certifications in English and Instructional Supervision from the
+      University of North Carolina-Charlotte.`,
     ],
     currentProject: "Tailwind Master Kit",
     currentProjectUrl: "https://tailwindmasterkit.com",
