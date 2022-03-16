@@ -9,7 +9,7 @@ export default function ContainerBlock({ children, ...customMeta }) {
 
   const meta = {
     title: "Rosebud Turner - Author, Speaker, Educator",
-    description: `I've been developing websites for 5 years straight. Get in touch with me to know more.`,
+    description: `I'm an author and poet, speaker, and educator. I believe in the power of words and the power of the human spirit.`,
     image: "/rosebud-standing.jpeg",
     type: "website",
     ...customMeta,
