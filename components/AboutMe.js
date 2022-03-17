@@ -52,11 +52,11 @@ export default function AboutMe() {
               <p className="text-lg text-gray-500 mt-4 dark:text-gray-300">
                 If you would like me to speak at your event or on behalf of your organization, please give me a call at {" "}
                 <a
-                  href="tel:1-704-609-0608"
+                  href={`mailto:${userData.email}`}
                   target="_blank"
                   className="text-gray-800 border-b-2 border-gray-800 dark:border-gray-300 font-bold dark:text-gray-300"
                 >
-                  {userData.phone}
+                  email
                 </a>{" "}
                 and I'd love to discuss how I may be of help.
               </p>
