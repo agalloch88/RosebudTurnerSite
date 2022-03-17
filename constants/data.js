@@ -8,7 +8,7 @@ const userData = {
   address: "Charlotte, NC",
   projects: [
     {
-      title: "NEW: The Other Woman - A Memoir",
+      title: "NEW: The Other Woman - A Memoir in Poetry",
       link: "https://app.thebookpatch.com/BookStore/the-other-woman/1ef7c346-ef2c-42b4-87be-e4a13df86986?isbn=9798885672016",
       imgUrl: "/the-other-woman.jpeg",
     },
