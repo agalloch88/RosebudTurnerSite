@@ -13,14 +13,14 @@ const userData = {
       imgUrl: "/the-other-woman.jpeg",
     },
     {
-      title: "PlaceholderTech",
-      link: "https://placeholdertech.in",
-      imgUrl: "/placeholdertech.png",
+      title: "Through Talen's Eyes: Grandma, What is Prayer?",
+      link: "https://www.amazon.com/Through-Talens-Eyes-Grandma-Prayer/dp/0996968903/ref=sr_1_2?crid=22RL2WJ6A2L08&keywords=Through+Talen%27s+Eyes&qid=1646937848&sprefix=through+talen%27s+eyes%2Caps%2C81&sr=8-2",
+      imgUrl: "/what-is-prayer.jpeg",
     },
     {
-      title: "Portfolio",
-      link: "https://manuarora.in",
-      imgUrl: "/portfolio.png",
+      title: "Through Talen's Eyes: A Visit to Grandma's House",
+      link: "https://www.amazon.com/Through-Talens-Eyes-Visit-Grandmas/dp/0988518007/ref=sr_1_1?crid=22RL2WJ6A2L08&keywords=Through+Talen%27s+Eyes&qid=1646937848&sprefix=through+talen%27s+eyes%2Caps%2C81&sr=8-1",
+      imgUrl: "/visit-to-grandma.jpeg",
     },
     {
       title: "Coming Soon...",
