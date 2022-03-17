@@ -31,6 +31,9 @@ export default function AboutMe() {
           {/* Social Buttons */}
           <div className="inline-flex flex-col">
             <div>
+              <div className="mb-2">
+                <img src="/rosebud-sitting.jpeg" />
+              </div>
               <h1 className="text-xl font-semibold text-gray-700 dark:text-gray-200">
                 Contact
               </h1>
@@ -50,7 +53,8 @@ export default function AboutMe() {
                 Other Opportunities
               </h1>
               <p className="text-lg text-gray-500 mt-4 dark:text-gray-300">
-                If you would like me to speak at your event or on behalf of your organization, please give me a call at {" "}
+                If you would like me to speak at your event or on behalf of your
+                organization, please give me a call at {" "}
                 <a
                   href={`mailto:${userData.email}`}
                   target="_blank"
@@ -78,7 +82,7 @@ export default function AboutMe() {
                   </p>
                 </a>
               </div>
-              <div className="flex flex-row justify-start items-center">
+              {/* <div className="flex flex-row justify-start items-center">
                 <a
                   href={userData.socialLinks.twitter}
                   className="flex flex-row items-center space-x-4 group"
@@ -89,8 +93,8 @@ export default function AboutMe() {
                     Twitter
                   </p>
                 </a>
-              </div>
-              <div className="flex flex-row justify-start items-center">
+              </div> */}
+              {/* <div className="flex flex-row justify-start items-center">
                 <a
                   href={userData.socialLinks.github}
                   className="flex flex-row items-center space-x-4 group"
@@ -101,7 +105,7 @@ export default function AboutMe() {
                     GitHub
                   </p>
                 </a>
-              </div>
+              </div> */}
               <div className="flex flex-row justify-start items-center">
                 <a
                   href={userData.socialLinks.linkedin}
@@ -114,7 +118,7 @@ export default function AboutMe() {
                   </p>
                 </a>
               </div>
-              <div className="flex flex-row justify-start items-center">
+              {/* <div className="flex flex-row justify-start items-center">
                 <a
                   href={userData.socialLinks.twitter}
                   className="flex flex-row items-center space-x-4 group"
@@ -125,7 +129,7 @@ export default function AboutMe() {
                     Instagram
                   </p>
                 </a>
-              </div>
+              </div> */}
             </div>
           </div>
           {/* Text area */}
