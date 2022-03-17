@@ -8,9 +8,9 @@ const userData = {
   address: "Charlotte, NC",
   projects: [
     {
-      title: "Tailwind Master Kit",
-      link: "https://tailwindmasterkit.com",
-      imgUrl: "/tmk.jpg",
+      title: "NEW: The Other Woman - A Memoir",
+      link: "https://app.thebookpatch.com/BookStore/the-other-woman/1ef7c346-ef2c-42b4-87be-e4a13df86986?isbn=9798885672016",
+      imgUrl: "/the-other-woman.jpeg",
     },
     {
       title: "PlaceholderTech",
@@ -23,9 +23,9 @@ const userData = {
       imgUrl: "/portfolio.png",
     },
     {
-      title: "CovidRescue",
+      title: "Coming Soon...",
       link: "https://covidrescue.co.in",
-      imgUrl: "/covidrescue.png",
+      imgUrl: "rosebud-sitting.jpeg",
     },
     {
       title: "Algochurn",
