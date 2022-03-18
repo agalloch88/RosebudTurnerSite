@@ -93,7 +93,7 @@ const userData = {
   experience: [
     {
       title: "Published 'The Other Woman - A Memoir in Poetry",
-      year: 2022,
+      year: "Latest",
       company: "Eliminate Excuse Resources",
       companyLink: "https://app.thebookpatch.com/BookStore/the-other-woman/1ef7c346-ef2c-42b4-87be-e4a13df86986?isbn=9798885672016",
       desc: "I offer opportunities for women to engage in conversations related to self-identity, self-care, self-worth, and the importance of releasing “who we truly are within” through the book itself and through motivational talks. ",
@@ -147,6 +147,7 @@ const userData = {
     {
       title: "College - BA in English",
       company: "HBCU Bethune-Cookman College",
+      year: "Earliest",
       companyLink: "https://www.cookman.edu/",
       desc: "Selected as Miss Freshman. Pledged AKA.",
     },
