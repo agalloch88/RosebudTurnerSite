@@ -92,6 +92,31 @@ const userData = {
   },
   experience: [
     {
+      title: "Published 'The Other Woman - A Memoir in Poetry",
+      year: 2022,
+      company: "Eliminate Excuse Resources",
+      companyLink: "https://app.thebookpatch.com/BookStore/the-other-woman/1ef7c346-ef2c-42b4-87be-e4a13df86986?isbn=9798885672016",
+      desc: "I offer opportunities for women to engage in conversations related to self-identity, self-care, self-worth, and the importance of releasing “who we truly are within” through the book itself and through motivational talks. ",
+    },
+    {
+      title: "Completed first 5k",
+      desc: "Completed my first 5k as a blind runner ",
+    },
+    {
+      title: "Bronze Medalist in Writing",
+      company: "2015 Senior Games",
+    },
+    {
+      title: "President",
+      company: "Eliminate Excuse Resources",
+      companyLink: "https://eliminateexcuse.ecwid.com/",
+      desc: "Are any of these statements part of your excuse language? Let’s encourage each other to change that habit of excuses!\nWhen…Then\nYes…But\nIf…Then\nAs Soon As…\nI Tried That…It Didn't Work ",
+    },
+    {
+      title: "Published two children's books.",
+      desc: "Through Talen's Eyes series."
+    },
+    {
       title: "Lost eyesight.",
       desc: "Completed appointment as Director even after sight loss. Retired from CMS.",
     },
