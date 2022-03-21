@@ -48,19 +48,19 @@ export default function FavoriteProjects() {
               <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-red-500 rounded-md px-2">
                 NEW RELEASE: The Other Woman - A Memoir in Poetry
               </h1>
-              <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">
-                01
+              <h1 className="absolute bottom-10 left-10 text-gray-50 bg-red-500 rounded-md font-bold text-xl">
+              This beautifully and soulfully written book chronicles, in poetic form, the emotional journey of a woman who in three significant life events feels she is “the other woman” to her husband, to her child, and even to herself.
               </h1>
             </div>
           </a>
           {/* Single card */}
-          <a
+          {/* <a
             href="https://www.amazon.com/Through-Talens-Eyes-Grandma-Prayer/dp/0996968903/ref=sr_1_2?crid=22RL2WJ6A2L08&keywords=Through+Talen%27s+Eyes&qid=1646937848&sprefix=through+talen%27s+eyes%2Caps%2C81&sr=8-2"
             className="w-full block col-span-3  sm:col-span-2 shadow-2xl"
             target="_blank"
           >
             <div className="relative overflow-hidden">
-              {/* <div className="overlay absolute inset-0 bg-black bg-opacity-70 z-10"></div> */}
+              {/* <div className="overlay absolute inset-0 bg-black bg-opacity-70 z-10"></div> 
               <img
                 src="/what-is-prayer.jpeg"
                 alt="book cover"
@@ -73,15 +73,15 @@ export default function FavoriteProjects() {
                 02
               </h1>
             </div>
-          </a>
+          </a> */}
           {/* Single card */}
-          <a
+          {/* <a
             href="https://www.amazon.com/Through-Talens-Eyes-Visit-Grandmas/dp/0988518007/ref=sr_1_1?crid=22RL2WJ6A2L08&keywords=Through+Talen%27s+Eyes&qid=1646937848&sprefix=through+talen%27s+eyes%2Caps%2C81&sr=8-1"
             className="w-full block col-span-3  sm:col-span-2 shadow-2xl"
             target="_blank"
           >
             <div className="relative overflow-hidden">
-              {/* <div className="overlay absolute inset-0 bg-black bg-opacity-70 z-10"></div> */}
+              {/* <div className="overlay absolute inset-0 bg-black bg-opacity-70 z-10"></div>
               <img
                 src="/visit-to-grandma.jpeg"
                 alt="book cover"
@@ -94,7 +94,7 @@ export default function FavoriteProjects() {
                 03
               </h1>
             </div>
-          </a>
+          </a> */}
         </div>
       </div>
     </div>

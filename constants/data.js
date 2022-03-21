@@ -52,7 +52,7 @@ const userData = {
     title:
       "I'm an author and poet, speaker, and lifelong educator who loves to create and learn",
     description: [
-      `I am resilient. I am genuine. I am inquisitive. I am a child of God. I am enough.`,
+      `My daily affirmations which help me maintain my moral compass and inner resolve are: I am creative. I am resilient. I am genuine. I am inquisitive. I am a child of God. I am enough.`,
       `Rosebud Alford Turner was born, raised and received most of her formal education in Florida. She has
       been a resident of Charlotte, NC for more than 40 years where she started her career as an educator,
       and raised her children. She taught secondary English for several years for the Charlotte-Mecklenburg
@@ -63,7 +63,7 @@ const userData = {
       `During her tenure in CMS Rosebud was assigned to create and direct a new department for the district
       whose goal was to increase teacher retention and teacher performance. She created the Department of
       Instructional Excellence. In this role she developed a mentoring program which focused specifically on
-      the personalized training and support for 1 st through 3 rd year teachers. By the second year of the
+      the personalized training and support for 1st through 3rd year teachers. By the second year of the
       department it was already evident that increased teacher retention and performance were being
       realized. Because of the success of the department, Rosebud was asked to share with other districts
       across the country the nuts and bolts of what methods and procedures she used in the department
@@ -75,9 +75,9 @@ const userData = {
       of her life. As proof of this belief, Rosebud created a business and called it Eliminate Excuse. She wrote
       her first and second children’s books after sight loss and has conducted book talks and trainings at
       schools and churches using her books as the back drop.`,
-      `Rosebud is a published author of three books: The Facilitator’s Guide for the First-Grade Teacher,
-      Through Talen’s Eyes – A Visit to Grandma’s House, and Through Talen’s Eyes – “Grandma What Is
-      Prayer?” Her latest book, The Other Woman, a Memoir in Poetry from an Enabling Wife, an Adoptive
+      `Rosebud is a published author of three books: "The Facilitator’s Guide for the First-Class Teacher",
+      "Through Talen’s Eyes – A Visit to Grandma’s House", and "Through Talen’s Eyes – 'Grandma, What Is
+      Prayer?'" Her latest book, The Other Woman, a Memoir in Poetry from an Enabling Wife, an Adoptive
       Mother, an Enlighted Friend, and a Resurrected Woman, is already getting positive notice.`,
       `Rosebud enjoys retirement by engaging in the things she loves doing the most: reading, listening to
       music, writing, singing and going to the theatre, movies, and luncheons with friends. She is a member of
@@ -92,7 +92,7 @@ const userData = {
   },
   experience: [
     {
-      title: "Published 'The Other Woman - A Memoir in Poetry",
+      title: "Published 'The Other Woman - A Memoir in Poetry'",
       year: "Latest",
       company: "Eliminate Excuse Resources",
       companyLink: "https://app.thebookpatch.com/BookStore/the-other-woman/1ef7c346-ef2c-42b4-87be-e4a13df86986?isbn=9798885672016",
@@ -103,8 +103,9 @@ const userData = {
       desc: "Completed my first 5k as a blind runner ",
     },
     {
-      title: "Bronze Medalist in Writing",
-      company: "2015 Senior Games",
+      title: "Bronze Medalist in Writing for poem 'Vestiges', formerly titled 'Anachronism', in 2015 Senior Games",
+      company: "Listen on YouTube!",
+      companyLink: "https://www.youtube.com/watch?v=59EoFFEr8qQ"
     },
     {
       title: "President",
@@ -128,7 +129,7 @@ const userData = {
     },
     {
       title: "Published & sold 'The Facilitator’s Guide for the First-Class Teacher'.",
-      company: "Cant & Associates Educational Resources",
+      company: "Canter & Associates Educational Resources",
       companyLink: "https://www.canter.net/",
       desc: "Hired to conduct nation-wide trainings on effective resources for novice teachers.",
     },
@@ -136,20 +137,20 @@ const userData = {
       title: "Master's Degree - Education",
       company: "UNC Charlotte",
       companyLink: "https://www.charlotte.edu/",
-      desc: "Also attained Graduate Certification in Supervision.",
+      desc: "Also attained Graduate Certification in Instructional Supervision.",
     },
     {
       title: "English & Social Studies Teacher",
       company: "Charlotte-Mecklenburg School District",
       companyLink: "https://www.cms.k12.nc.us/Pages/default.aspx",
-      desc: "Enlish Depeartment chair. Voted 'Teacher of the Year' at Hawthorne Traiditional and Kennedy Junior High.",
+      desc: "English Department chair. Voted 'Teacher of the Year' at Hawthorne Traditional and Kennedy Junior High.",
     },
     {
       title: "College - BA in English",
       company: "HBCU Bethune-Cookman College",
       year: "Earliest",
       companyLink: "https://www.cookman.edu/",
-      desc: "Selected as Miss Freshman. Pledged AKA.",
+      desc: "Selected as Miss Freshman. Pledged Alpha Kappa Alpha.",
     },
   ],
   resumeUrl:

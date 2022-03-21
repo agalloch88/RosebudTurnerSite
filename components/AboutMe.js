@@ -54,7 +54,7 @@ export default function AboutMe() {
               </h1>
               <p className="text-lg text-gray-500 mt-4 dark:text-gray-300">
                 If you would like me to speak at your event or on behalf of your
-                organization, please give me a call at {" "}
+                organization, please {" "}
                 <a
                   href={`mailto:${userData.email}`}
                   target="_blank"
@@ -62,7 +62,7 @@ export default function AboutMe() {
                 >
                   email
                 </a>{" "}
-                and I'd love to discuss how I may be of help.
+                me and I'd love to discuss how I may be of help.
               </p>
             </div>
             {/* Social Links */}
