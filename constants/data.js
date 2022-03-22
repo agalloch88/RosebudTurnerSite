@@ -147,10 +147,10 @@ const userData = {
     },
     {
       title: "College - BA in English",
-      company: "HBCU Bethune-Cookman College",
+      company: "HBCU Bethune-Cookman College (BC-C)",
       year: "Earliest",
       companyLink: "https://www.cookman.edu/",
-      desc: "Selected as Miss Freshman. Pledged Alpha Kappa Alpha.",
+      desc: "Selected as Miss Freshman. Pledged Alpha Kappa Alpha. Performed with Ossie Davis and Ruby Dee in the theater productions of 'A Raisin in the Sun' and 'Member of the Wedding' at BC-C",
     },
   ],
   resumeUrl:

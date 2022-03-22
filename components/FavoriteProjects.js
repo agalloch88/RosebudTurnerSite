@@ -49,7 +49,7 @@ export default function FavoriteProjects() {
                 NEW RELEASE: The Other Woman - A Memoir in Poetry
               </h1>
               <h1 className="absolute bottom-10 left-10 text-gray-50 bg-red-500 rounded-md font-bold text-xl">
-              This beautifully and soulfully written book chronicles, in poetic form, the emotional journey of a woman who in three significant life events feels she is “the other woman” to her husband, to her child, and even to herself.
+              A must read for any woman who has ever felt she was not enough.
               </h1>
             </div>
           </a>
