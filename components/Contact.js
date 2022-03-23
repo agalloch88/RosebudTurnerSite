@@ -179,7 +179,7 @@ export default function Contact() {
           <form className="form rounded-lg bg-white p-4 flex flex-col">
             <label htmlFor="name" className="text-sm text-gray-600 mx-4">
               {" "}
-              Your Name
+              Your Name:
             </label>
             <input
               type="text"
@@ -190,7 +190,7 @@ export default function Contact() {
               required
             />
             <label htmlFor="email" className="text-sm text-gray-600 mx-4 mt-4">
-              Email
+              Email:
             </label>
             <input
               type="email"
@@ -204,7 +204,7 @@ export default function Contact() {
               htmlFor="message"
               className="text-sm text-gray-600 mx-4 mt-4"
             >
-              Message
+              Message:
             </label>
             <textarea
               rows="4"
