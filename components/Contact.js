@@ -28,6 +28,7 @@ export default function Contact() {
       console.log('response received');
       if (res.status === 200) {
         console.log('response success!');
+        alert("Message sent!");
         setSubmitted(true);
         setName("");
         setEmail("");
@@ -182,18 +183,22 @@ export default function Contact() {
             </label>
             <input
               type="text"
+              value={name}
               onChange={(e) => {setName(e.target.value)}}
               className="font-light rounded-md border focus:outline-none py-2 mt-2 px-1 mx-4 focus:ring-2 focus:border-none ring-blue-500"
               name="name"
+              required
             />
             <label htmlFor="email" className="text-sm text-gray-600 mx-4 mt-4">
               Email
             </label>
             <input
-              type="text"
+              type="email"
+              value={email}
               onChange={(e) => {setEmail(e.target.value)}}
               className="font-light rounded-md border focus:outline-none py-2 mt-2 px-1 mx-4 focus:ring-2 focus:border-none ring-blue-500"
               name="email"
+              required
             />
             <label
               htmlFor="message"
@@ -204,6 +209,7 @@ export default function Contact() {
             <textarea
               rows="4"
               type="text"
+              value={message}
               onChange={(e) => {setMessage(e.target.value)}}
               className="font-light rounded-md border focus:outline-none py-2 mt-2 px-1 mx-4 focus:ring-2 focus:border-none ring-blue-500"
               name="message"
