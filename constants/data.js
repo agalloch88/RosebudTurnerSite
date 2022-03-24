@@ -129,7 +129,6 @@ const userData = {
     },
     {
       title: "Recurring Lecturer",
-      year: "Professional Achievements",
       company: "Davidson College and UNC CHarlotte",
     },
     {
