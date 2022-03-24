@@ -93,10 +93,16 @@ const userData = {
   experience: [
     {
       title: "Published 'The Other Woman - A Memoir in Poetry'",
-      year: "Latest",
+      year: "Personal Accomplishments",
       company: "Eliminate Excuse Resources",
       companyLink: "https://app.thebookpatch.com/BookStore/the-other-woman/1ef7c346-ef2c-42b4-87be-e4a13df86986?isbn=9798885672016",
-      desc: "I offer opportunities for women to engage in conversations related to self-identity, self-care, self-worth, and the importance of releasing “who we truly are within” through the book itself and through motivational talks. ",
+      desc: "A must read for any woman who has ever felt she was not enough. I offer opportunities for women to engage in conversations related to self-identity, self-care, self-worth, and the importance of releasing “who we truly are within” through the book itself and through motivational talks. ",
+    },
+    {
+      title: "President",
+      company: "Eliminate Excuse Resources",
+      companyLink: "https://eliminateexcuse.ecwid.com/",
+      desc: "Are any of these statements part of your excuse language? Let’s encourage each other to change that habit of excuses!\nWhen…Then\nYes…But\nIf…Then\nAs Soon As…\nI Tried That…It Didn't Work ",
     },
     {
       title: "Completed first 5k",
@@ -108,14 +114,8 @@ const userData = {
       companyLink: "https://www.youtube.com/watch?v=59EoFFEr8qQ"
     },
     {
-      title: "President",
-      company: "Eliminate Excuse Resources",
-      companyLink: "https://eliminateexcuse.ecwid.com/",
-      desc: "Are any of these statements part of your excuse language? Let’s encourage each other to change that habit of excuses!\nWhen…Then\nYes…But\nIf…Then\nAs Soon As…\nI Tried That…It Didn't Work ",
-    },
-    {
       title: "Published two children's books.",
-      desc: "Through Talen's Eyes series."
+      desc: "'Through Talen's Eyes: Grandma, What is Prayer?' and 'Through Talen's Eyes: A Visit to Grandma's House'."
     },
     {
       title: "Lost eyesight.",
@@ -123,9 +123,14 @@ const userData = {
     },
     {
       title: "Director, Department of Instructional Excellence",
+      year: "Professional Achievements",
       company: "Charlotte-Mecklenburg School District",
       companyLink: "https://www.cms.k12.nc.us/Pages/default.aspx",
-      desc: "Served as recurring lecturer at Davidson College and UNC Charlotte.",
+    },
+    {
+      title: "Recurring Lecturer",
+      year: "Professional Achievements",
+      company: "Davidson College and UNC CHarlotte",
     },
     {
       title: "Published & sold 'The Facilitator’s Guide for the First-Class Teacher'.",
@@ -134,21 +139,22 @@ const userData = {
       desc: "Hired to conduct nation-wide trainings on effective resources for novice teachers.",
     },
     {
-      title: "Master's Degree - Education",
-      company: "UNC Charlotte",
-      companyLink: "https://www.charlotte.edu/",
-      desc: "Also attained Graduate Certification in Instructional Supervision.",
-    },
-    {
       title: "English & Social Studies Teacher",
       company: "Charlotte-Mecklenburg School District",
       companyLink: "https://www.cms.k12.nc.us/Pages/default.aspx",
       desc: "English Department chair. Voted 'Teacher of the Year' at Hawthorne Traditional and Kennedy Junior High.",
     },
     {
+      title: "Master's Degree - Education",
+      year: "Educational Achievements",
+      company: "UNC Charlotte",
+      companyLink: "https://www.charlotte.edu/",
+      desc: "Also attained Graduate Certification in Instructional Supervision.",
+    },
+    {
       title: "College - BA in English",
       company: "HBCU Bethune-Cookman College (BC-C)",
-      year: "Earliest",
+      
       companyLink: "https://www.cookman.edu/",
       desc: "Selected as Miss Freshman. Pledged Alpha Kappa Alpha. Performed with Ossie Davis and Ruby Dee in the theater productions of 'A Raisin in the Sun' and 'Member of the Wedding' at BC-C",
     },
