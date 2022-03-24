@@ -2,12 +2,23 @@ import React, { useState } from "react";
 import userData from "@constants/data";
 
 export default function Contact() {
+  //contact form state vars
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
   const [submitted, setSubmitted] = useState(false);
 
-  const handleSubmit = (e) => {
+  //form valiation state vars
+  const [errors, setErrors] = useState({});
+
+  //button text var on form submission
+  const [buttonText, setButtonText] = useState("Send Message");
+
+  //success or failure message state vars
+  const [showSuccessMessage, setShowSuccessMessage] = useState(false);
+  const [showFailureMessage, setShowFailureMessage] = useState(false);
+
+  const handleSubmit = async (e) => {
     e.preventDefault();
     console.log("sending email...");
 
@@ -15,27 +26,61 @@ export default function Contact() {
       name: name,
       email: email,
       message: message,
-    }
+    };
 
-    fetch('/api/contact', {
-      method: 'POST',
-      headers: {
-        'Accept': 'application/json, text/plain, */*',
-        'Content-Type': 'application/json'
-      },
-      body: JSON.stringify(data)
-    }).then((res) => {
-      console.log('response received');
-      if (res.status === 200) {
-        console.log('response success!');
-        alert("Message sent!");
+    let isValidForm = handleValidation();
+    if (isValidForm) {
+      setButtonText("Sending...");
+      const res = await fetch("/api/sendgrid", {
+        method: "POST",
+        headers: {
+          Accept: "application/json, text/plain, */*",
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(data),
+      });
+
+      const { error } = await res.json();
+      if (error) {
+        console.log("error", error);
+        setShowSuccessMessage(false);
+        setShowFailureMessage(true);
+        setButtonText("Send Message");
+        return;
+      } else {
+        console.log("response success!");
+        setShowSuccessMessage(true);
+        setShowFailureMessage(false);
+        setButtonText("Send Message");
         setSubmitted(true);
         setName("");
         setEmail("");
         setMessage("");
       }
-    })
-  }
+    }
+  };
+
+  const handleValidation = () => {
+    let tempErrors = {};
+    let isValid = true;
+
+    if (name.length <= 0) {
+      tempErrors["name"] = true;
+      isValid = false;
+    }
+    if (email.length <= 0) {
+      tempErrors["email"] = true;
+      isValid = false;
+    }
+    if (message.length <= 0) {
+      tempErrors["message"] = true;
+      isValid = false;
+    }
+
+    setErrors({ ...tempErrors });
+    console.log("errors", errors);
+    return isValid;
+  };
 
   return (
     <section>
@@ -176,7 +221,10 @@ export default function Contact() {
               </a>
             </div>
           </div>
-          <form className="form rounded-lg bg-white p-4 flex flex-col">
+          <form
+            className="form rounded-lg bg-white p-4 flex flex-col"
+            method="post"
+          >
             <label htmlFor="name" className="text-sm text-gray-600 mx-4">
               {" "}
               Your Name:
@@ -184,22 +232,32 @@ export default function Contact() {
             <input
               type="text"
               value={name}
-              onChange={(e) => {setName(e.target.value)}}
+              onChange={(e) => {
+                setName(e.target.value);
+              }}
               className="font-light rounded-md border focus:outline-none py-2 mt-2 px-1 mx-4 focus:ring-2 focus:border-none ring-blue-500"
               name="name"
               required
             />
+            {errors?.name && (
+              <p className="text-red-500">Fullname cannot be empty.</p>
+            )}
             <label htmlFor="email" className="text-sm text-gray-600 mx-4 mt-4">
               Email:
             </label>
             <input
               type="email"
               value={email}
-              onChange={(e) => {setEmail(e.target.value)}}
+              onChange={(e) => {
+                setEmail(e.target.value);
+              }}
               className="font-light rounded-md border focus:outline-none py-2 mt-2 px-1 mx-4 focus:ring-2 focus:border-none ring-blue-500"
               name="email"
               required
             />
+            {errors?.email && (
+              <p className="text-red-500">Email cannot be empty.</p>
+            )}
             <label
               htmlFor="message"
               className="text-sm text-gray-600 mx-4 mt-4"
@@ -210,17 +268,38 @@ export default function Contact() {
               rows="4"
               type="text"
               value={message}
-              onChange={(e) => {setMessage(e.target.value)}}
+              onChange={(e) => {
+                setMessage(e.target.value);
+              }}
               className="font-light rounded-md border focus:outline-none py-2 mt-2 px-1 mx-4 focus:ring-2 focus:border-none ring-blue-500"
               name="message"
             ></textarea>
-            <button
-              type="submit"
-              onClick={(e) => {handleSubmit(e)}}
-              className="bg-blue-500 rounded-md w-1/2 mx-4 mt-8 py-2 text-gray-50 text-xs font-bold"
-            >
-              Send Message
-            </button>
+            {errors?.message && (
+              <p className="text-red-500">Message body cannot be empty.</p>
+            )}
+            <div className="flex flex-row items-center justify-start">
+              <button
+                type="submit"
+                onClick={(e) => {
+                  handleSubmit(e);
+                }}
+                className="bg-blue-500 rounded-md w-1/2 mx-4 mt-8 py-2 text-gray-50 text-xs font-bold"
+              >
+                {buttonText}
+              </button>
+            </div>
+            <div className="text-left">
+              {showSuccessMessage && (
+                <p className="text-green-500 font-semibold text-sm my-2 delay-300">
+                  Thank you! Your message has been delivered.
+                </p>
+              )}
+              {showFailureMessage && (
+                <p className="text-red-500">
+                  Oops! Something went wrong, please try again.
+                </p>
+              )}
+            </div>
           </form>
         </div>
       </div>
