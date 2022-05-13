@@ -45,8 +45,8 @@ export default function FavoriteProjects() {
                 alt="book cover"
                 className="transform hover:scale-125 transition duration-2000 ease-out"
               />
-              <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-red-500 rounded-md px-2">  
-              </h1>
+              {/* <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-red-500 rounded-md px-2">  
+              </h1> */}
               <h1 className="absolute bottom-10 left-10 text-gray-50 bg-red-500 rounded-md font-bold text-xl">
               NEW RELEASE: 'The Other Woman - A Memoir in Poetry'. A must read for any woman who has ever felt she was not enough.
               </h1>
