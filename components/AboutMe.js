@@ -32,7 +32,7 @@ export default function AboutMe() {
           <div className="inline-flex flex-col">
             <div>
               <div className="mb-2">
-                <img src="/rosebud-sitting.jpeg" />
+                <img src="/rosebud-sitting.jpeg" alt="Rosebud sitting"/>
               </div>
               <h1 className="text-xl font-semibold text-gray-700 dark:text-gray-200">
                 Contact
@@ -74,6 +74,8 @@ export default function AboutMe() {
                 <a
                   href={userData.socialLinks.facebook}
                   className="flex flex-row items-center space-x-4 group"
+                  target="_blank"
+                  aria-hidden="true"
                 >
                   <div className="my-4">&rarr;</div>
                   <p className="text-lg text-gray-500 font-mono relative overflow-hidden dark:text-gray-300">
@@ -110,6 +112,8 @@ export default function AboutMe() {
                 <a
                   href={userData.socialLinks.linkedin}
                   className="flex flex-row items-center space-x-4 group"
+                  target="_blank"
+                  aria-hidden="true"
                 >
                   <div className="my-4">&rarr;</div>
                   <p className="text-lg text-gray-500 font-mono relative overflow-hidden dark:text-gray-300">
